@@ -17,10 +17,10 @@ wallet/repository/user_repository.go:61.8,63.3 1 1
 wallet/repository/user_repository.go:67.41,69.3 1 1
 wallet/repository/user_repository.go:69.8,74.3 1 1
 wallet/service/user_service.go:19.73,21.2 1 1
-wallet/service/user_service.go:23.58,26.2 2 1
-wallet/service/user_service.go:28.56,30.2 1 1
-wallet/service/user_service.go:32.70,34.2 1 1
-wallet/service/user_service.go:36.103,38.2 1 1
+wallet/service/user_service.go:23.58,25.2 1 1
+wallet/service/user_service.go:27.56,29.2 1 1
+wallet/service/user_service.go:31.70,33.2 1 1
+wallet/service/user_service.go:35.103,37.2 1 1
 wallet/handler/user_handler.go:23.64,25.2 1 1
 wallet/handler/user_handler.go:27.73,30.24 2 1
 wallet/handler/user_handler.go:37.2,37.32 1 1

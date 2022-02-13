@@ -21,8 +21,7 @@ func NewUserService(repository repository.IUserRepository) IUserService {
 }
 
 func (s *UserService) CreateUser(username string) string {
-	message := s.Repository.CreateUser(username)
-	return message
+	return s.Repository.CreateUser(username)
 }
 
 func (s *UserService) FindAllUser() model.UserResponse {

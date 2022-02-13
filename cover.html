@@ -312,8 +312,7 @@ func NewUserService(repository repository.IUserRepository) IUserService <span cl
 }</span>
 
 func (s *UserService) CreateUser(username string) string <span class="cov8" title="1">{
-        message := s.Repository.CreateUser(username)
-        return message
+        return s.Repository.CreateUser(username)
 }</span>
 
 func (s *UserService) FindAllUser() model.UserResponse <span class="cov8" title="1">{
